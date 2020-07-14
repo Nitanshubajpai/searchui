@@ -1,0 +1,15 @@
+#form {
+    display: flex;
+}
+#city, #type {
+    width: 250px;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+}
+#Searchbutton {
+    width: 50px;
+    height: 30px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-color: yellow;
+}
