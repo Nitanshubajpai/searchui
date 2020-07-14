@@ -9,24 +9,25 @@
 </head>
 <body>
     <h1> Ready for a Ride? <h1></h1>
-    <form action = "search.php" >
-        <Section style="display: flex; width: 800px; justify-content: space-evenly;"> 
+    <form action="search.html" method="POST">
+        <Section style="display: flex; width: 800px; justify-content: space-evenly; padding-top: 50px; text-align: center;"> 
         <div>
-            <select id="city">
-                <option selected value="base">CITY</option>
-                <option value="Delhi">Delhi</option>
+            
+            <select name="city" id="city">
+                <option selected value="base" >CITY</option>
+                <option value="Delhi" >Delhi</option>
             </select>
             <br>
         </div>
         <div>
-            <select id="type">
+            <select name="type" id="type">
                 <option selected value="base">TYPE</option>
                 <option value="Bike">Bike</option>
                 <option value="Car">Car</option>
             </select>
         </div>
         <div>
-            <input type="submit" id="Searchbutton" value="GO"/>
+            <input type="submit" id="Searchbutton" value="GO" />
         </div>
         </Section>
     </form>
